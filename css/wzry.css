@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    /*width: 1920px;*/
+    background: url("../imgs/background2.jpg") no-repeat center center;
+    height: 1100px;
+    background-size: cover;
+    /*margin: 0 auto;*/
+}
+
+/*头部*/
+.head {
+    /*background-color: #34a853;*/
+    width: 100%;
+    height: 42px;
+}
+
+.h-mid {
+    width: 990px;
+    height: 41px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.ul1 {
+    width: 980px;
+    padding: 0 5px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 41px;
+}
+
+.ul1 .li1 {
+    width: 150px;
+    background: url(../imgs/logo.png) top center no-repeat;
+    position: relative;
+    z-index: 10001;
+}
+
+.ost_blnk {
+    display: block;
+    height: 100%;
+}
+
+.ost_hdn {
+    text-indent: -500px;
+}
+
+.ul1 .li1,
+.li2 {
+    float: left;
+}
+
+.ul1 .li3 {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 41px;
+}
+
+.ul1 .li3 .green-circle {
+    float: left;
+    width: 22px;
+    height: 22px;
+    background-image: url("../imgs/title_sprite.png");
+    background-position: -34px -4px;
+    /*margin-top: 9px;*/
+    /*margin-left: 35px;*/
+    margin: 9px 3px 0 35px;
+    cursor: pointer;
+}
+
+.ul1 .li2 {
+    height: 40px;
+    width: 230px;
+    position: relative;
+    /*background-color: red;*/
+}
+
+.ul1 .li3 a {
+    color: #464646;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ul1 .li3 .h3-1 {
+    float: left;
+    /*padding: -1px 1px 0 10px;*/
+    width: 146px;
+    height: 41px;
+    padding-left: 9px;
+    /*padding-bottom: 5px;*/
+    /*line-height: 41px;*/
+}
+
+.li3 .h3-1 a:hover {
+    color: #f95d23;
+    height: 41px;
+}
+
+.ul1 .li3 .h3-2 {
+    height: 39px;
+    width: 120px;
+    float: left;
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    /*margin: 0;*/
+    /*cursor: pointer;*/
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    color: #464646;
+    /*background-color: red;*/
+}
+
+/*.h3-2 a .jiantou {*/
+/*    float: left;*/
+/*}*/
+.ul1 .li3 .jiantou {
+    float: right;
+    width: 22px;
+    height: 20px;
+    background-image: url("../imgs/title_sprite.png");
+    background-position: -4px -2px;
+    margin-top: 12px;
+    transform: rotate(90deg);
+    /*margin-left: 10px;*/
+    background-size: 100px;
+}
+
+.nizhan {
+    position: absolute;
+    top: 0;
+    left: -155px;
+    width: 970px;
+    height: 185px;
+    background: url("../imgs/nizhan.jpg") no-repeat;
+    /*border: 1px solid red;*/
+    display: none;
+    z-index: 999;
+}
+
+.li2:hover .nizhan {
+    display: block;
+}
+
+.paiHangBang {
+    position: absolute;
+    right: 19px;
+    top: 41px;
+    width: 707px;
+    height: 590px;
+    background-color: #fafafa;
+    z-index: 1;
+    display: none;
+
+}
+
+.li3 .h3-2:hover .paiHangBang {
+    /*transform: scale(1.1);*/
+    display: block;
+}
+
+.paiHangBang div {
+    width: 224px;
+    height: 294px;
+    /*background-color: orange;*/
+    /*margin-left: 11px;*/
+    float: left;
+}
+
+.paiHangBang .p-d2 {
+    /*background-color: skyblue;*/
+}
+
+.p-d1 {
+    margin-left: 35px;
+    /*float: left;*/
+}
+
+.paiHangBang .p-d1 a {
+    /*font-size: 30px;*/
+    font-weight: bold;
+    float: left;
+}
+
+.paiHangBang .p-d1-jiantou {
+    /*float: left;*/
+    width: 22px;
+    height: 20px;
+    background: url("../imgs/title_sprite.png") no-repeat -5px -8px;
+    /*background-color: red;*/
+    margin-top: 12px;
+    margin-left: 60px;
+    /*margin-left: 10px;*/
+}
+
+.paiHangBang .p-d1 li {
+    font-size: 14px;
+    position: relative;
+    color: #333333;
+}
+
+.paiHangBang .p-d1 .p-d1-red span {
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    background-color: #c12a2b;
+    /*width: 16px;*/
+    /*height: 16px;*/
+    padding: 0 4px;
+    margin-right: 5px;
+}
+
+.paiHangBang .p-d1 .p-d1-gray span {
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    background-color: #cccccc;
+    /*width: 16px;*/
+    /*height: 16px;*/
+    padding: 0 4px;
+    margin-right: 5px;
+}

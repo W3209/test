@@ -1,0 +1,171 @@
+
+.daji {
+    position: fixed;
+    top: 183px;
+    /*top: 0;*/
+    right: 0;
+    width: 254px;
+    height: 494px;
+    /*border: 1px solid skyblue;*/
+
+    /*background-color: skyblue;*/
+    background: url("../imgs/r_navBg.webp") no-repeat;
+
+    z-index: 99;
+}
+
+.djImg {
+    position: relative;
+    top: 15px;
+    width: 166px;
+    height: 146px;
+    /*border: 1px solid red;*/
+    /*background-color: #34A853;*/
+    background: url("../imgs/r_dj.webp") no-repeat;
+    margin-left: 25px;
+}
+
+.daji ul {
+    position: relative;
+    top: 15px;
+}
+
+.daji li {
+    width: 117px;
+    height: 38px;
+    /*border: 1px solid red;*/
+    margin-left: 86px;
+}
+
+.daji .djLi1 {
+    padding-top: 2px;
+    text-align: center;
+    background: url("../imgs/r_all2022.webp") no-repeat -243px 0;
+    /*background-size: contain;*/
+    width: 117px;
+    height: 132px;
+}
+
+.daji .djImg .scan {
+    display: block;
+    position: absolute;
+    top: 37px;
+    left: 12px;
+    width: 88px;
+    height: 36px;
+    font-size: 14px;
+    text-indent: 2px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #62401b;
+    overflow: hidden;
+}
+
+.daji .djImg .dlGame {
+    display: block;
+    position: absolute;
+    top: 57px;
+    left: 12px;
+    width: 88px;
+    height: 36px;
+    font-size: 14px;
+    text-indent: 2px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #62401b;
+    overflow: hidden;
+}
+
+.daji .djLi2 {
+    margin-top: 2px;
+    background: url("../imgs/r_all2022.webp") no-repeat -243px -134px;
+}
+
+.daji .djLi3 {
+    margin-top: 1px;
+    background: url("../imgs/r_all2022.webp") no-repeat -122px -120px;
+}
+
+.daji .djLi4 {
+    background: url("../imgs/r_all2022.webp") no-repeat -122px -160px;
+}
+
+.daji .djLi5 {
+    background: url("../imgs/r_all2022.webp") no-repeat -122px 0;
+}
+
+.daji .djLi2:hover {
+    background-position: -243px -172px;
+}
+
+.daji .djLi3:hover {
+    background-position: -122px -240px;
+}
+
+.daji .djLi4:hover {
+    background-position: -122px -200px;
+}
+
+.daji .djLi5:hover {
+    background-position: -122px -42px;
+}
+
+.ewm {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    border: 1px solid #E1B75B;
+    padding-top: 6px;
+    width: 111px;
+    height: 138px;
+    font-size: 12px;
+    color: #CFCFCF;
+    display: none;
+    /*z-index: 99;*/
+    /*transition: opacity .4s ease;*/
+    text-align: center;
+}
+
+/*二维码位置*/
+.djLi2 .ewm {
+    top: 70px;
+    left: -27px;
+}
+
+.djLi3 .ewm {
+    top: 108px;
+    left: -27px;
+}
+
+.djLi4 .ewm {
+    top: 146px;
+    left: -27px;
+}
+
+.djLi5 .ewm {
+    top: 184px;
+    left: -27px;
+}
+
+/*二维码悬浮显示*/
+.djLi2:hover .ewm {
+    display: block;
+}
+
+.djLi3:hover .ewm {
+    display: block;
+}
+
+.djLi4:hover .ewm {
+    display: block;
+}
+
+.djLi5:hover .ewm {
+    display: block;
+}
+
+.ewm span {
+    color: #C9984D;
+    /*display: inline-block;*/
+    width: 100px;
+}
+

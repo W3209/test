@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="王者荣耀爆料,王者荣耀新英雄,王者荣耀新皮肤,王者荣耀英雄重塑" />
+    <meta name="description" content="王者荣耀官方爆料站，官方消息一手掌握，最新英雄、最新皮肤、英雄重塑、系统优化、美术优化第一时间爆料" />
+    <title>电玩·雷克斯-澜 - 王者荣耀爆料站 - 王者荣耀官方网站 - 腾讯游戏</title>
+    <link rel="stylesheet" type="text/css" href="//game.gtimg.cn/images/yxzj/web201706/css/coming/v2/common.css" />
+    <link rel="stylesheet" type="text/css" href="//game.gtimg.cn/images/yxzj/web201706/css/coming/v2/skin.css">
+</head>
+<body class="skin">
+    <div class="wrap newSkin">
+        <header>
+    <div class="header-top">
+        <a href="//pvp.qq.com/" title="王者荣耀首页" class="pvp-logo" target="_blank"></a>
+        <a href="//pvp.qq.com/coming/v2/" title="爆料站首页" class="main-logo"></a>
+        <div class="header_nav">
+            <a href="//pvp.qq.com/coming/v2/" title="首页" class="nav-index">首页<cite>HOME</cite></a>
+            <a href="//pvp.qq.com/coming/v2/skin-list.shtml" title="皮肤" class="nav-skin">皮肤<cite>SKIN</cite></a>
+            <a href="//pvp.qq.com/coming/v2/hero-list.shtml" title="英雄" class="nav-hero">英雄<cite>HERO</cite></a>
+            <a href="//pvp.qq.com/coming/v2/mode-list.shtml" title="玩法" class="nav-mode">玩法<cite>MODE</cite></a>
+            <a href="//pvp.qq.com/coming/v2/system-list.shtml" title="系统" class="nav-system">系统<cite>SYSTEM</cite></a>
+            <a href="//pvp.qq.com/coming/v2/arts-list.shtml" title="美术优化" class="nav-arts">美术优化<cite>ARTS</cite></a>
+        </div>
+        <!-- 登录框 选区框 代码 star --------------------------------------------------->
+        <div class="login_pannel">
+            <a class="avatar user_pic " href="/web201605/personal.shtml">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAABGdBTUEAALGPC/xhBQAAARpQTFRF88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JY88JYAAAA88JYAMCn0QAAAF10Uk5TZBSP1dYNDujnLPuA3/zQAos0UjmnB8KcgZrNkfGwCdhthtnjysFgCFAZSuQWKYNXh9IbREw+9iRhdyPlZRNdvRwnMRrvNf3F3isBtz+eRfPha+v3O+718Gm0eB4AqcfmkwAAAUBJREFUOMvt1FWTg0AMAOCeu7u71t3dFS+FJv//b9wCnbu5YwI83VPzsBvYb2aRbHzgOXxzartTLbGhVPVAN9Z0NurrXVdaE9GkKNZcaFPBVBJ6kEyh0nSksoqYAVgEyCCqsgMdcIjIpxOYSPMs4wYkHY3RiPwSLufNbDyiqIp/Q6Iob6MqRZ9t9ImiNzZ6R9ELG72k6Dl22q1v1mp38JSiE9SgLpR3mNssC3XQ2DVBD62lBR2zRSPR8JiiR9jIrgDEwhiOAazqDTyjaI7trMQhwqYIxBU2XVH01nibCYTYGGIPzuKBLJdrkwb86A9YVCfpI1uNBkHmZAhGDSqQ9MUspwLkwGcV2StJh9bHn8J09hs+Sfo2/EXFd6ezVZB+aP/D+cQebM+odN9z6wPFvkl3ux66y95WBSr7J/NW/F/0C0EhZNPgBN3FAAAAAElFTkSuQmCC" width="42" height="42">
+            </a>
+            <!--=====登录后已选择大区=====-->
+            <div id="logined_selected" class="per-infor" style="display:none;">
+                <p class="user-name f12"> <i id="nickname">--</i> <a class="logout_btn" href="javascript:void(0)">注销</a><!--<a class="select_role" style="color:#2d84d3" href="javascript:void(0)">切换大区&gt;</a>--></p>
+                <p class="personal_link"><a href="//pvp.qq.com/web201605/personal.shtml">点击查看游戏战绩</a></p>
+                <ul class="userinfo-list tc">
+                    <li><em class="grade_level">倔强青铜III</em><i>段位</i></li>
+                    <li><em class="win_count">-</em><i>胜场</i></li>
+                    <li><em class="hero_count">-</em><i>英雄数</i></li>
+                    <li><em class="skin_count">-</em><i>皮肤数</i></li>
+                </ul>
+            </div>
+            <div id="unlogin" class="per-infor unlogin_pannel" style="display: block;">
+                <span class="unlogin_user_pic"></span>
+                <div class="unlogin_info"> <a href="javascript:TGDialogS('login_select');">欢迎登录</a>
+                    <p>登录后查看游戏战绩</p>
+                </div>
+            </div>
+            <!--=====登录后未选择大区=====-->
+            <div id="logined_not_selected" class="per-infor" style="display:none;">
+                <div class="user-name"> 您已登录
+                    <p>请<a class="select_role" href="javascript:void(0)">选择大区</a>，或者<a class="logout_btn" href="javascript:void(0)">注销</a></p>
+                    <!--您已登录，个人中心暂未开放<a class="logout_btn" href="javascript:void(0)">注销</a>--></div>
+            </div>
+        </div>
+        <!--  登录框 选区框 End --------------------------------------------------->
+    </div>
+</header>
+        
+        <div class="header-dialog">
+            <div class="pop pr" id="login_select" data-milodialog="1" role="dialog" tabindex="-1">
+                <a href="javascript:showDialog.hide()" class="close pa db ht">关闭</a>
+                <a href="javascript:void(0)" id="wxlogin" class="wx-login pa db ht">微信用户登录</a>
+                <a href="javascript:void(0)" id="qqlogin" class="qq-login pa db ht">QQ用户登录</a>
+            </div>
+            <div class="pop3 pr" id="area_select" style="display:none;"> <a href="javascript:showDialog.hide()" class="close pa db ht">关闭</a>
+                <div class="se-input">
+                    <select name="channelContentId" id="channelContentId">
+                        <option selected="">选择渠道</option>
+                    </select>
+                    <select name="areaContentId" id="areaContentId">
+                        <option selected="">选择大区</option>
+                    </select>
+                    <select name="roleContentId" id="roleContentId">
+                        <option selected="">选择角色</option>
+                    </select>
+                    <div class="se-checkbox">
+                        <input type="checkbox" id="se-checkbox"><label for="se-checkbox" id="se-checkbox-txt">我同意授权“本页面获取并存储我的游戏区服和角色相关信息用于正常的抽奖、领取、发货、签到等操作”</label>
+                    </div>
+                </div>
+                <div class="se-btn clearfix"> <a id="RoleSelectBtn" href="javascript:;" class="fl ht">确定</a> <a href="javascript:showDialog.hide()" class="fl ht">取消</a> </div>
+            </div>
+        </div>
+        <div class="content">
+            <section class="sub-header">
+                <div class="sub-cont">
+                    <div class="sub-text">
+                        <p class="titF">新皮肤</p>
+                        <p class="titS"><span>电玩·雷克斯</span></p>
+                    </div>
+                    <div class="sub-list">
+                        <ul>
+                            <li class="on"><a href="#showSkin">皮肤展示</a></li>
+                            <li><a href="#skinInspir">灵感特性</a></li>
+                                                                                    <!---->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 相关推荐 -->
+            <!---->
+            
+            <!-- 皮肤banner图 -->
+            <section class="pageBanner">
+                <div class="banner">
+                    <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856950163279.jpg" alt="">
+                </div>
+            </section>
+            
+            <!-- 英雄名及头像 -->
+            <section id="showSkin" class="head-title skin-head">
+                <div class="wrap">
+                    <div class="head-ph"><img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856949746741.jpg" alt=""></div>
+                    <img class="head-grade" width="" height="" src="//game.gtimg.cn/images/yxzj/ingame/skin/icon/15.png" alt="" />
+                    <div class="head-name">
+                        <span>电玩·雷克斯</span><span class="head-hero-name">澜</span>
+                        
+                    </div>
+                      <!--    2020-6-24 新增 亮点描述  -->
+                    <p class="head-desc">澜电玩主题皮肤</p>
+                </div>
+            </section>
+
+            <section id="buy-wrap" class="buy-wrap" data-sx="2023-06-02" data-kq="2" data-yj="" data-tj="" data-zkxj="" data-xj="" data-xd="" data-amsid=""></section>
+            <!-- 皮肤视频 -->
+                    <!-- 2020年6月24日 修改皮肤效果展示  os:新增皮肤亮点说明 -->
+            <section class="pagebox">
+                <div class="wrap-content">
+                    <div class="wrap-tit">
+                        <h3>皮肤效果展示</h3>
+                    </div>
+                    <p class="tips">此为研发过程中录制，所展示内容仅供参考</p>
+                    <div class="page">
+                        <div class="video-cont">
+                            <div id="container" class="video-img" data-vid="v3516mxhorg">
+                                <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856950229469.jpg" alt="">
+                                <a class="player-box" title="点击播放"><i class="video-ico"></i></a>
+                            </div>
+                        </div>
+                        <!--    2020年6月24日 新增皮肤亮点说明   -->
+                        <div class="skin-merit">
+                            <h6>皮肤亮点说明</h6>
+                            <ul class="merit-list">
+                                <li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        电玩狂想：电玩·极速酷玩系列皮肤                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        外观：霸王龙和飒爽的红白赛车手组合                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        特效：霸王龙车身，像素粒子围巾，像素龙脊                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        回城：在未知的道具赛，意外也是赛程的一部分                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        休闲动作：偶尔也会看看沿途的风景                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        出生复活：雷克斯准备就绪                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        全屏展示：直道靠车，弯道靠车手                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        礼赠：随皮肤附赠同系列头像框                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        语音：冷静沉稳的天才赛车手                                    </p>
+                                </li><li>
+                                    <p>
+                                        <i class="icon-merit"></i>
+                                        音效：复古趣味的电玩巴比特音效                                    </p>
+                                </li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+            <!-- 技能展示 -->
+            <section class="skin-skill">
+                <ul class="accCont">
+                    <li class="accordLi">
+                        <div class="raider_title">
+                            <div class="raider-tit">
+                                <span class="tit1">01</span>
+                                <span class="tit2">
+                                    被动技能</if>
+						    	    						    	    						    	                                    </span>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856958721168.gif" alt="">
+                        </div>
+                    </li><li class="accordLi">
+                        <div class="raider_title">
+                            <div class="raider-tit">
+                                <span class="tit1">02</span>
+                                <span class="tit2">
+                                    </if>
+						    	    1技能展示						    	    						    	                                    </span>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856958769656.gif" alt="">
+                        </div>
+                    </li><li class="accordLi">
+                        <div class="raider_title">
+                            <div class="raider-tit">
+                                <span class="tit1">03</span>
+                                <span class="tit2">
+                                    </if>
+						    	    						    	    2技能展示						    	                                    </span>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856958803145.gif" alt="">
+                        </div>
+                    </li><li class="accordLi">
+                        <div class="raider_title">
+                            <div class="raider-tit">
+                                <span class="tit1">04</span>
+                                <span class="tit2">
+                                    </if>
+						    	    						    	    						    	    3技能展示                                </span>
+                            </div>
+                        </div>
+                        <div class="cont_box">
+                            <img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856958855500.gif" alt="">
+                        </div>
+                    </li>                </ul>
+            </section>
+
+            <!-- 灵感及特性介绍 -->
+            <section id="skinInspir" class="skin-inspir">
+                <div class="wrap-tit">
+                    <h3>灵感及特性介绍</h3>
+                </div>
+                <div class="wrap-content">
+                    <div class="design-cont-txt"><b><font color="#DAA520">主题设计</font></b><br>
+像素，一个像素只能记录一种色彩信息，是早年硬件限制下的产物。<br>
+但这种对比强烈的配色、简单趣味的风格，会让我们感到放松和解压，自动激活那些纯真简单的美好时光。<br>
+竞速玩法，也以电玩像素风格为始，一直被我们熟悉和喜爱。<br>
+这次，让我们一起打开一个像素小游戏，天才车手澜、道具欧皇蔡文姬，以及热衷改装的刘禅，将以全新的面貌上演一出激烈的赛道追逐，最终他们选择留下的像素小世界，就像我们内心对纯真的渴望，指引我们永远保持纯粹，不忘童趣。<br>
+小时候的快乐很简单，长大后简单就很快乐。这个初夏，让我们一起重回童心吧！<br><br><b><font color="#DAA520">角色介绍</font></b><br>
+身为《极速之王》游戏里的人气王，L身上有许多游戏制作组的“设定”，比如说，要时刻保持冷酷，要力争极限，要比别人更快更强。尽管已经诞生了意识，但他仍旧分不清，什么时候是自己的意志在驱动，什么时候又是“设定”在驱动。<br>
+直到那场“极速之王版本冠军争霸赛”的举行，赢家将被冠以“极速之王”的称号，进入续作再铸辉煌。想赢的心情是如此坚定，可是冠军近在咫尺时，他却违逆拿下第一的欲望，选择减速留在这个像素小世界里。<br>
+也是在那个瞬间，他清晰地感知到，自己意志的存在。于是，那个按照设定本该一直前行的车手，最终选择了停留。<br><br>
+可选角色：L<br>
+载具：雷克斯<br>
+角色介绍：追求极限的天才车手<br>
+角色台词：能掌控的速度，都不是极限<br><br><b><font color="#DAA520">角色设计</font></b><br>
+整体采用撞色、紧致贴身的赛车手款式服饰、摩托夹克来表现澜的车手身份，同时以大量像素粒子表达电玩主题，如人物背后的流光、刀和手臂上的粒子效果等。<br>
+载具设计为电玩暴龙雷克斯号，关键时刻可变身为摩托形态进行比赛。<br><br><b><font color="#DAA520">皮肤故事</font></b><br>
+曲折蜿蜒的天空赛道上，L正倚着雷克斯俯瞰这座城市。<br>
+自游戏诞生伊始，他便生活在这里。起初，这座城市非常小，只有一条赛道，车手也只有寥寥数个。<br>
+后来，被吸引的玩家越来越多，赛道开始增加，城市也不断扩建，一批又一批新的车手加入进来，不知不觉间就变成了如今这副雄伟壮观的模样。<br>
+可不知从何时起，城市变化的频率开始降低，渐渐地不再有每月例行一次的更新，不再有新的车手加入。直到那场争霸赛的举行，他才明白，原来续作要开了，没有赢得”极速之王“称号的游戏角色将留在这座注定会冷寂下来的城里。<br>
+而续作，除了有更极致的画面，还有许多更难更具有挑战性的新赛道，有无数个技术一流的车手，也不会再拘泥于一张地图。或许在那里，他能够挑战梦寐以求的极限。<br>
+离终点越近，他的世界就越安静，冠军奖杯近在咫尺的时候，屏幕外的玩家因莫名的手柄飘逸懊恼地叹了口气，屏幕内的澜第一次挣脱玩家的操控，减速停了下来。<br>
+那个瞬间他到底在想什么，他自己也说不上来。可能太安静了，安静到他有些不习惯。<br><br>
+天色渐渐转暗，赛道依旧闪烁，城市上空那台巨大的扭蛋机“叮咚”一声，往外喷出了无数彩带。这意味着玩家们都下线了，接下来，是游戏角色的下班时间。<br>
+”哟，雷克斯，找你半天了。“<br>
+驾驶着巨大机关人的爆裂小子从附近的空中平台跳下，落在赛道上发出重重的一声，”今天的争霸赛可不怎么尽兴啊，咱们再比一回，这次本天才肯定拿第一！“<br>
+”就你？“粉头发的幸运兔子摇杆操纵着载具跳上天空赛道，她似乎刚刚参加完一场竞速比赛，兔顽号上的金币还在哗啦啦碰撞，“你连我都赢不了，说大话的捣蛋鬼！”<br>
+“哼，本天才根本不把你放在眼里。”<br>
+”敢来比一场吗？手下败将！“<br>
+“比就比。”<br>
+爆裂小子与幸运兔子各自瞪了对方一眼，空气中似有火花在碰撞，他们不约而同地冷哼一声，又齐齐撇开头去。<br>
+“笨蛋兔子，本天才新学了一招旋风漂移，可厉害了，你要不要看看？如果你叫本天才一声爆裂旋风的主宰大人，说不定本天才还会教教你。”爆裂小子双手叉腰，语气欠揍。<br>
+“你那招旋风漂移和我的萝卜突突比起来差得远呢！还有，我不叫笨蛋兔子！”<br>
+“就叫就叫，笨兔子！兔子笨！笨！蛋！兔！子！”<br>
+”……“<br>
+看来，即使玩家们离开，这座城市也不会冷寂。<br>
+他想，他应该找到自己选择留下的原因了。<br><br><b><font color="#DAA520">美宣图设计</font></b><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856956246813.png"/>
+    						</div>						<div class="design-cont-txt">《极速之王》的赛道之上，天才车手澜遥遥领先，身后的蔡文姬选手发射了一枚飞弹想要干扰他的行进，却被澜用左手刀刃轻松化解。<br><br><b><font color="#DAA520">展示动画设计</font></b><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856956637913.gif"/>
+    						</div>						<div class="design-cont-txt">表现了天才车手澜的竞速高光时刻：澜脚踩轮滑冲刺时减速炸弹飞来，开启护盾弹开炸弹后跃起，身后冲出电玩暴龙变形为摩托，澜和机车一起没入地下，随后从断裂的路面上飞起，灵活地从机械人的手中穿行而过。<br><br><b><font color="#DAA520">场景设计</font></b><br>
+我们设定了一个轻松有趣、派对般的电玩乐园，使用了许多趣味性的元素，如可爱的巨型机器人、像素风的热气球等。同时为了契合竞速游戏主题，以赛道金币、干扰飞弹等熟悉的游戏道具，唤起回忆中玩竞速游戏时的轻松快乐时光。<br><br><b><font color="#DAA520">技能特效设计</font></b><br>
+以像素粒子特效为主，结合了澜的暴龙载具进行设计。<br><font color="#DAA520">被动技能：</font><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856956963773.gif"/>
+    						</div>						<div class="design-cont-txt"><br><font color="#DAA520">一技能：</font><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856957181039.gif"/>
+    						</div>						<div class="design-cont-txt">潜入裂隙下的像素世界，跃起发出强有力的斩击；<br><br><font color="#DAA520">二技能：</font><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856957321884.gif"/>
+    						</div>						<div class="design-cont-txt">澜腾空挥舞刀刃，伴有龙鳍造型的像素刀光，技能二段释放后快速穿梭而行，身后留下飘逸的像素流光。二技能的位移标记也变为多彩的氮气加速标志；<br><br><font color="#DAA520">三技能：</font><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856957731918.gif"/>
+    						</div>						<div class="design-cont-txt">召唤出两种形态的载具冲出：正常释放时为坐上暴龙摩托冲出，尾部喷射有像素风的火焰，车底有代表竞速主题的箭头，动感十足；下潜状态下释放则直接召唤出电玩暴龙，从地下的像素世界咆哮而出造成打击。<br><br><b><font color="#DAA520">回城设计</font></b><br></div>
+						<div class="relation-cont">
+    							<img src="//game.gtimg.cn/images/yxzj/coming/v2/skins//image/20230602/16856957965242.gif"/>
+    						</div>						<div class="design-cont-txt">澜在赛道上滑行，一个帅气的凌空翻转后坐上前来接应的雷克斯号，瞬间提速向前冲出，同时灵活地躲避前方的障碍物。<br><br><b><font color="#DAA520">音乐音效设计</font></b><br>
+音乐设计：整体以Wubstep风格融合8bit复古元素创作音乐，澜的音乐以bass为旋律主奏，也为他的暴龙摩托设计了专属的音色，同时在听感上模拟了澜出入水的听觉感受。<br>
+音效设计：将物理攻击音效与8bit元素结合呈现像素风，同时将竞速游戏中的加速效果融入，带来更有速度感和电玩风的音效表现。</div>
+												                </div>
+            </section>
+            
+            <!-- 奇趣秘闻 -->
+                        
+            <!-- 2020年6月24日 新增 皮肤配音 -->
+                        <!-- 一行文字介绍 -->
+                        
+            <!-- 大神点评 -->
+            <!---->
+
+        </div>
+    </div>
+    <!-- Site header footer  -->
+    <script src="//game.gtimg.cn/images/js/foot.js"></script>
+    <!--script src="//game.gtimg.cn/images/js/title.js"></script-->
+    <script src="//game.gtimg.cn/images/js/jquery/jquery-1.11.3.min.js"></script>
+    <!-- login -->
+    <script src="//game.gtimg.cn/images/js/milo_bundle/milo.js"></script>
+    <script src="//pvp.qq.com/web201605/js/logic.js"></script>
+    <!-- page -->
+    <script src='//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js'></script>
+    <script src="//game.gtimg.cn/images/yxzj/web201706/js/coming/v2/skin.js"></script>
+    <!-- 统计代码 -->
+    <script src="//game.gtimg.cn/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+    <script type="text/javascript">
+    var setSite={   //设置网站属性
+        siteType:"os",
+        pageType:"skinDetail",   //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName:"新皮肤详情页",  //必填项:页面中文名
+        osact:'pc',    //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        project: 'coming'
+    }
+    if(typeof(pgvMain)=='function')pgvMain();
+    </script>
+</body>
+</html>
